@@ -1,0 +1,25 @@
+#box {
+    position: relative;
+    top: 120px;
+    left: 120px;
+
+    background-color: blue;
+}
+
+p {
+    background-color: yellow;
+}
+
+#box1 {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 20px;
+    background-color: green;
+}
+#box2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: red;
+}

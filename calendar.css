@@ -1,4 +1,15 @@
-.test {
-  color: blue;
+.calendar-box {
+  position: relative;
+  height: 880px;
+  background-color: red;
+}
+
+tbody td {
+  height: 60px;
+  width: 15%;
+}
+
+.calendar-table tr td:hover {
+  background-color: blue;
 }
 /*# sourceMappingURL=calendar.css.map */
