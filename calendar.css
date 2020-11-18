@@ -1,7 +1,6 @@
 .calendar-box {
   position: relative;
   height: 880px;
-  background-color: red;
 }
 
 tbody td {
@@ -10,6 +9,15 @@ tbody td {
 }
 
 .calendar-table tr td:hover {
+  background-color: #c9c9c9;
+}
+
+div[class*="new-event-"] {
+  position: absolute;
+  top: 305px;
+  left: 350px;
+  width: 200px;
+  height: 33px;
   background-color: blue;
 }
 /*# sourceMappingURL=calendar.css.map */
