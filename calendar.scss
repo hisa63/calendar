@@ -10,11 +10,16 @@ tbody {
     }
 }
 
-.calendar-table tr td:hover {
-    background-color: rgba(201,201,201,1);
+div[class*="new-event-"] {
+    position: absolute;
+    // top: 305px;
+    // left: 350px;
+    width: 200px;
+    height: 33px;
+    background-color: blue;
 }
 
-div[class*="new-event-"] {
+#new-event-1 {
     position: absolute;
     top: 305px;
     left: 350px;

@@ -8,11 +8,14 @@ tbody td {
   width: 15%;
 }
 
-.calendar-table tr td:hover {
-  background-color: #c9c9c9;
+div[class*="new-event-"] {
+  position: absolute;
+  width: 200px;
+  height: 33px;
+  background-color: blue;
 }
 
-div[class*="new-event-"] {
+#new-event-1 {
   position: absolute;
   top: 305px;
   left: 350px;
